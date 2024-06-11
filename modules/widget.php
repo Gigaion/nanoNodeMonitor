@@ -1,7 +1,7 @@
 <?php if ($nanoNodeAccount): ?>
 <?php if ($widgetType == 'qr'): ?>
 
-<img src="https://qrcode.tec-it.com/API/QRCode?data=nano:<?php echo $nanoNodeAccount; ?>&choe=UTF-8" style="max-width:250px; display:block; margin: 0 0 0 auto;" />
+<img src="https://qrcode.tec-it.com/API/QRCode?data=nano:<?php echo $nanoNodeAccount; ?>&choe=UTF-8" style="max-width:150px; display:block; margin: 0 0 0 auto;" />
 
 <?php elseif($widgetType == 'natricon'): ?>
 
