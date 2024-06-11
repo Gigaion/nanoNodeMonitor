@@ -335,8 +335,10 @@ function getAccountUrl($account, $blockExplorer)
       return "https://bananolooker.com/account/" . $account;
     case 'yellowspyglass':
       return "https://yellowspyglass.com/account/" .$account;
+    case 'blocklattice':
+      return "https://blocklattice.io/account/" . $account;
     default:
-      return "https://nanocrawler.cc/explorer/account/" . $account;
+      return "https://blocklattice.io/account/" . $account;
   }
 }
 
