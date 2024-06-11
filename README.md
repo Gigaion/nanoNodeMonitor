@@ -1,6 +1,6 @@
 # Nano Node Monitor
 
-![GitHub release](https://img.shields.io/github/release/NanoTools/nanoNodeMonitor.svg?style=flat-square) [![StyleCI](https://styleci.io/repos/118352667/shield?branch=master)](https://styleci.io/repos/118352667) [![Docker Pulls](https://img.shields.io/docker/pulls/nanotools/nanonodemonitor.svg?style=flat-square)](https://hub.docker.com/r/nanotools/nanonodemonitor/)
+![GitHub release](https://img.shields.io/github/release/gigaion/nanoNodeMonitor.svg?style=flat-square) [![StyleCI](https://styleci.io/repos/118352667/shield?branch=master)](https://styleci.io/repos/118352667) [![Docker Pulls](https://img.shields.io/docker/pulls/gigaion/nanonodemonitor.svg?style=flat-square)](https://hub.docker.com/r/gigaion/nanonodemonitor/)
 
 Nano Node Monitor is a server-side PHP-based monitor for Nano and Banano nodes. It connects to a running node via RPC and displays it's status on a simple webpage. Being server-side, it does not expose the RPC interface of the Nano node to the public.
 
@@ -12,13 +12,13 @@ Nano Node Monitor is a server-side PHP-based monitor for Nano and Banano nodes. 
 
 ### Pulling Docker image
 
-    sudo docker pull nanotools/nanonodemonitor
+    sudo docker pull gigaion/nanonodemonitor
 
 ### Running
 
 #### Standalone
 
-    sudo docker run -d -p 80:80 -v ~:/opt --restart=unless-stopped nanotools/nanonodemonitor
+    sudo docker run -d -p 80:80 -v ~:/opt --restart=unless-stopped gigaion/nanonodemonitor
 
 This will create a directory called _nanoNodeMonitor_ inside your home directory with the _config.php_ inside it.
 Edit it according to your needs and you're good to go!
@@ -33,7 +33,7 @@ Edit it according to your needs and you're good to go!
 version: '3'
 services:
   monitor:
-    image: "nanotools/nanonodemonitor:TAG"
+    image: "gigaion/nanonodemonitor:TAG"
     restart: "unless-stopped"
     ports:
      - "80:80"
@@ -70,7 +70,7 @@ services:
 
 In your empty webserver directory, e.g. `/var/www/html`, execute:
 
-    git clone https://github.com/NanoTools/nanoNodeMonitor .
+    git clone https://github.com/gigaion/nanoNodeMonitor .
 
 If you want it to run a subdirectory remove the `.` at the end.
 
@@ -103,12 +103,10 @@ $nanoNodeRPCPort = '7076';
 
 ## Creating a Theme
 
-If you're interested in creating your own theme in addition to the official Light,  Dark, and Banano themes, we've made it very simple for you to do so. Check out the [Wiki](https://github.com/NanoTools/nanoNodeMonitor/wiki/Create-a-theme) for more info.
+If you're interested in creating your own theme in addition to the official Light,  Dark, and Banano themes, we've made it very simple for you to do so. Check out the [Wiki](https://github.com/gigaion/nanoNodeMonitor/wiki/Create-a-theme) for more info.
 
 ## Support
 
-Donations to the development of Nano Node Monitor are very welcome to:
+Donations to the forked development of Nano Node Monitor are very welcome to:
 
-    nano_1ninja7rh37ehfp9utkor5ixmxyg8kme8fnzc4zty145ibch8kf5jwpnzr3r
-
-Or [sponsor the development on GitHub](https://github.com/sponsors/BitDesert)! Thanks!
+    nano_11pb5aa6uirs9hoqsg4swnzyehoiqowj94kdpthwkhwufmtd6a11xx35iron
