@@ -1,25 +1,25 @@
 <?php
 
 // the project version
-define('PROJECT_VERSION', '1.7.0');
+define('PROJECT_VERSION', '1.8.0');
 
 // project URL
-define('PROJECT_URL', 'https://github.com/NanoTools/nanoNodeMonitor');
+define('PROJECT_URL', 'https://github.com/gigaion/nanoNodeMonitor');
 
 // URL to get version of latest release from github
-define('GITHUB_LATEST_API_URL', 'https://api.github.com/repos/NanoTools/nanoNodeMonitor/releases/latest');
+define('GITHUB_LATEST_API_URL', 'https://api.github.com/repos/gigaion/nanoNodeMonitor/releases/latest');
 
 // nano rep account for Nano Node Monitor 
-define ('NODEMON_REP_ACCOUNT', 'nano_1f56swb9qtpy3yoxiscq9799nerek153w43yjc9atoaeg3e91cc9zfr89ehj');
+define ('NODEMON_REP_ACCOUNT', 'nano_11pb5aa6uirs9hoqsg4swnzyehoiqowj94kdpthwkhwufmtd6a11xx35iron');
 
 // banano rep account for Nano Node Monitor 
-define ('NODEMON_BAN_REP_ACCOUNT', 'ban_1kxnxi5zurj6h7dfb87ik6hhu9yo63miyg6q1fjaxgnd1kknr5y5md4xwxoj');
+define ('NODEMON_BAN_REP_ACCOUNT', 'nano_11pb5aa6uirs9hoqsg4swnzyehoiqowj94kdpthwkhwufmtd6a11xx35iron');
 
 // nano donation account for Nano Node Monitor development
-define ('NODEMON_DON_ACCOUNT', 'nano_1ninja7rh37ehfp9utkor5ixmxyg8kme8fnzc4zty145ibch8kf5jwpnzr3r');
+define ('NODEMON_DON_ACCOUNT', 'nano_11pb5aa6uirs9hoqsg4swnzyehoiqowj94kdpthwkhwufmtd6a11xx35iron');
 
 // baano donation account for Nano Node Monitor development
-define ('NODEMON_BAN_DON_ACCOUNT', 'ban_1ninja7rh37ehfp9utkor5ixmxyg8kme8fnzc4zty145ibch8kf5jwpnzr3r');
+define ('NODEMON_BAN_DON_ACCOUNT', 'nano_11pb5aa6uirs9hoqsg4swnzyehoiqowj94kdpthwkhwufmtd6a11xx35iron');
 
 // total number of characters for displaying Nano addresses including ellipsis
 define ('NANO_ADDR_NUM_CHAR', 17);
